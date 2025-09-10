@@ -38,9 +38,9 @@ public class GenerateInfoFiles {
             for (int i = 0; i < 5; i++) {
                 createSalesMenFile(5, NAMES[i], 1000 + i);
             }
-            System.out.println("✅ Archivos generados exitosamente en la carpeta /data.");
+            System.out.println("Archivos generados exitosamente en la carpeta /data.");
         } catch (IOException e) {
-            System.out.println("❌ Error al generar los archivos: " + e.getMessage());
+            System.out.println("Error al generar los archivos: " + e.getMessage());
         }
     }
 
